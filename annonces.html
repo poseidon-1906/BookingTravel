@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>ECORIK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/new.css">
+  <link rel="stylesheet" href="css/annonces.css"> 
+</head>
+
+<body>
+  <section class="head">
+    <div class="container flex1">
+      <div class="scoial">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="logo">
+        <a href="index.html"><img src="image/logo.png" alt=""></a>
+      </div>
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Douala Cameroun</span>
+      </div>
+    </div>
+  </section>
+
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar flex1">
+        <div class="sticky_logo logo">
+          <img src="image/logo.png" alt="">
+        </div>
+
+        <ul class="nav-menu">
+          <li> <a href="index.html">Home</a> </li>
+          <li> <a href="#services">services</a> </li>
+          <li> <a href="annonces.html">annonces</a> </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="head_contact">
+          <i class="fas fa-phone-volume"></i>
+          <span>+237 697 25 47 68</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobliemmenu);
+
+    function mobliemmenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+      <h1 class="title">Annonces A Ne Pas Manquer </h1>
+
+      <section class="annonces">
+       <div class="indisponible">
+        <h2>Pas D'annonces Pour le moment </h2>
+        <img src="image/empty_box_99px.png" alt="">
+       </div>
+       <div class="disponible">
+        <section class="offer2  wrapper timer top" id="shop">
+          <div class="container">
+            <div class="heading">
+              <h5></h5>
+              <h3>Ne Manquez Pas Les Offres De Vos Agences</h3>
+            </div>
+      
+            <div class="content grid  top">
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour L'Ouset</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 2Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Bertoua</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 3Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Le Sud</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 4Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Le Sud</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 4Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Le Sud</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 4Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Le Sud</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 4Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Le Sud</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 4Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+              <div class="box">
+                <h5>UP TO 30% OFF</h5>
+                <h3>Voyage Pour Le Sud</h3>
+                <span>4.5 <label>(432 Reviews)</label> </span>
+                <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+                <div class="flex">
+                  <i class="fal fa-alarm-clock"> Durée: 4Heurs</i>
+                  <i class="far fa-dot-circle"> 18+ years</i>
+                </div>
+                <a href="agence.html"><button class="flex1">
+                  <span>Reserver</span>
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button></a>
+              </div>
+            </div>
+          </div>
+        </section>
+       </div>
+      </section>
+    
+
+  <!-- <footer>
+    <div class="container top">
+      <div class="subscribe" id="contact">
+        <h2>Subscribe newsletter</h2>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="input flex">
+          <input type="email" placeholder="Your Email address">
+          <button class="flex1">
+            <span>Subscribe</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <div class="logo">
+            <img src="image/logo.png" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="social flex">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Big Data</li>
+            <li><i class="fas fa-angle-double-right"></i>Wellness</li>
+            <li><i class="fas fa-angle-double-right"></i>Spa Gallery</li>
+            <li><i class="fas fa-angle-double-right"></i>Reservation</li>
+            <li><i class="fas fa-angle-double-right"></i>FAQ</li>
+            <li><i class="fas fa-angle-double-right"></i>Contact</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Restaurant</li>
+            <li><i class="fas fa-angle-double-right"></i>Swimming Pool</li>
+            <li><i class="fas fa-angle-double-right"></i>Wellness & Spa</li>
+            <li><i class="fas fa-angle-double-right"></i>Conference Room</li>
+            <li><i class="fas fa-angle-double-right"></i>Events</li>
+            <li><i class="fas fa-angle-double-right"></i>Adult Room</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Douala Cameroun</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+237 698 47 54 67</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>hello@ecorik.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+</body>
+
+
+</html>
