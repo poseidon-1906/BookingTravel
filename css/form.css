@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    background-color: #f1b81d;
+    left: 30%;
+}
+@media (max-width:700px) {
+    body{
+        position: initial;
+        margin-top: 40%;
+    }
+}
+.wrapper{
+    background: #fff;
+    width:100%;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.267), 0 -32px 64px -48px rgba(0, 0, 0, 0.288);
+}
+.form{
+   padding: 1.4rem 1.7rem;
+}
+.form header{
+    font-weight: 600;
+    padding-bottom: .5rem; 
+    font-size: 1.5rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.form form{
+    margin: 1.4rem 0;
+
+}
+.form form .error-txt{
+    color: #721c24;
+    text-align: center;
+    background: #f8d7da;
+    border-radius:5px ;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    padding: .6rem 5rem;
+    display: none;
+}
+.form form .name-details{
+    display: flex;
+}
+form .name-details .fields:first-child{
+    margin-right: 10px;
+}
+form .name-details .fields:last-child{
+    margin-left: 10px;
+}
+.form form .fields{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position: relative;
+}
+.form form .fields  img.active::before{
+    content: "\f070";
+    color: var(--main-green);
+    background-color: #000;
+}
+.eye{
+    position: absolute;
+    top: 70%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.form form .fields input{
+  outline: none;
+}
+.form form .fields label{
+    margin-bottom: 2px;
+}
+.form form .input input{
+  height: 40px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0 .6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form form .image input{
+    font-size: 1.2rem;
+}
+:root{
+    --main-color:#CC8C18;
+  }
+.form form .button input{
+ margin-right: 13px;
+ background: var(--main-color);
+ color: #fff;
+ cursor: pointer;
+ height: 45px;
+ border-radius: 5px;
+ border: none;
+ font-size: 1.3rem;
+ transition: .02s;
+ font-weight: 600;
+ margin-top: 20px;
+}
+
+.form .link{
+    text-align: center;
+    margin: .9rem 0;
+    font-size: 1.2rem;
+}
+.form .link a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+.form .link a:hover{
+    text-decoration: underline;
+}

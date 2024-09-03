@@ -1,0 +1,21 @@
+body{
+    background-color: #fff;
+}
+form{
+    margin-left: 300px;
+    background-color: #fff;
+    width: 40vw;
+    padding: 20px;
+}
+form input{
+    height: 20px;
+    width: 60%;
+    padding-top: 14px;
+}
+form .description{
+    height: 200px;
+}
+form p{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
